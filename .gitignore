@@ -1,0 +1,5 @@
+/node_modules
+.prettierrc.json
+tsconfig.json
+cypress/videos
+cypress/screenshots

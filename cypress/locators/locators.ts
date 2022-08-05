@@ -1,0 +1,21 @@
+export const locators = {
+    loginButton: '[data-testid="topbar.login"]',
+    username: '[autocomplete="username"]',
+    password: '[autocomplete = "current-password"]',
+    loginButtonField: 'div[class="f-group__item"]',
+    loginButtonOnPage: 'button[type = "submit"]',
+    validationError: 'span[class="field-validation-error"]',
+    inputField: 'input[data-role="search-tips"]',
+    findAnAnswer: 'button[data-ym-target="root_screen_search"]',
+    carResult: 'a[href="/cars/mini/"]',
+    signUpButton: 'a[data-ym-target="menu_top_entry"]',
+    signUpWindow: "div.c-signup",
+    allCarsButton: 'button[data-action="filter.full"]',
+    cars: {
+        maybach: 'href="/experience/maybach/"',
+        infinity: 'a[href="/experience/infiniti/"]',
+    },
+    title: 'h1[class="x-title"]',
+    menuCommunities: 'a[data-ym-target="menu_communities"]',
+    contentHeader: 'div[class="c-empty-content__header"]',
+};
