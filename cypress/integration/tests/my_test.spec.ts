@@ -1,10 +1,12 @@
 import { input } from "../../fixtures/fieldInputs";
+import { logger } from "../../conf/loggerConfig";
 
 describe("drive2.ru testing", () => {
     beforeEach("Open main page", () => {
         cy.visit("/");
     });
     it("Check login page", () => {
+        logger.debug("Check login page");
         cy.login(input.randomEmail, input.randomPassword);
     });
 
